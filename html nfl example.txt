@@ -1,0 +1,2441 @@
+<main role="main" class="has-right-sidebar">
+	<div class="table-filters clearfix">
+					<div class="table-filter">
+        <label for="week">Week:</label>
+        <select id="week" name="week" class="redirectOnChange">
+		<option value="0" selected="">All</option>
+				        <option value="593">Week 1</option>
+				        <option value="594">Week 2</option>
+				        <option value="595">Week 3</option>
+				        <option value="596">Week 4</option>
+				        <option value="597">Week 5</option>
+				        <option value="598">Week 6</option>
+				        <option value="599">Week 7</option>
+				        <option value="600">Week 8</option>
+				        <option value="601">Week 9</option>
+				        <option value="602">Week 10</option>
+				        <option value="603">Week 11</option>
+				        <option value="604">Week 12</option>
+				        <option value="605">Week 13</option>
+				        <option value="606">Week 14</option>
+				        <option value="607">Week 15</option>
+				        <option value="608">Week 16</option>
+				        <option value="609">Week 17</option>
+				        <option value="610">Week 18</option>
+				        <option value="611">Wild Card</option>
+				        <option value="612">Divisional</option>
+				        <option value="613">Conference</option>
+				        <option value="614">Super Bowl</option>
+			</select>
+</div> <!-- table-filter -->
+							        <div class="table-filter">
+                <label for="group">Show:</label>
+                <select id="group" name="group" class="redirectOnChange">
+                        <option value="0" selected="">All</option>
+                                                                                                
+                        
+                                                                                                                                                                                                                <option value="110">AFC East</option>
+                                                                                                                                <option value="111">AFC North</option>
+                                                                                                                                <option value="112">AFC South</option>
+                                                                                                                                <option value="113">AFC West</option>
+                                                                                                                                <option value="114">NFC East</option>
+                                                                                                                                <option value="115">NFC North</option>
+                                                                                                                                <option value="116">NFC South</option>
+                                                                                                                                <option value="117">NFC West</option>
+                                                                                                                                <option value="118">AFC Central</option>
+                                                                                                                                <option value="119">NFC Central</option>
+                                                                        </select>
+        </div> <!-- table-filter -->
+	</div> <!-- table-filters -->
+
+										
+										<h4>Week 1</h4>
+					<div id="DataTables_Table_0_wrapper" class="dataTables_wrapper no-footer"><div class="scroll-wrapper"><div><table class="tr-table datatable scrollable nosort dataTable no-footer" id="DataTables_Table_0" role="grid">
+	
+								        <thead>
+				        <tr role="row"><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.797px;" rowspan="1" colspan="1">Thu Sep  5</th><th class="text-left nowrap sort-asc-first sort-first sorting_disabled" style="width: 120.391px;" rowspan="1" colspan="1">Time</th><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.812px;" rowspan="1" colspan="1">Location</th></tr>
+				</thead>
+				<tbody>
+						  	        
+									
+	
+							        <tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/ravens-chiefs-week-1-2024">Baltimore  @  Kansas City</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20">8:20 PM</td>
+			    			<td class="text-left nowrap">GEHA Field at Arrowhead Stadium</td>
+			  		</tr></tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Fri Sep  6</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/packers-eagles-week-1-2024">Green Bay  vs.  Philadelphia</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15"> 8:15 PM</td>
+			    			<td class="text-left nowrap">Corinthians Arena</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Sun Sep  8</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/steelers-falcons-week-1-2024">Pittsburgh  @  Atlanta</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Mercedes-Benz Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/cardinals-bills-week-1-2024">Arizona  @  Buffalo</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Highmark Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/titans-bears-week-1-2024">Tennessee  @  Chicago</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Soldier Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/patriots-bengals-week-1-2024">New England  @  Cincinnati</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Paycor Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/texans-colts-week-1-2024">Houston  @  Indianapolis</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Lucas Oil Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/jaguars-dolphins-week-1-2024">Jacksonville  @  Miami</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Hard Rock Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/panthers-saints-week-1-2024">Carolina  @  New Orleans</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Caesars Superdome</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/vikings-giants-week-1-2024">Minnesota  @  NY Giants</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">MetLife Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/raiders-chargers-week-1-2024">Las Vegas  @  LA Chargers</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">SoFi Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/broncos-seahawks-week-1-2024">Denver  @  Seattle</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">Lumen Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/cowboys-browns-week-1-2024">Dallas  @  Cleveland</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Huntington Bank Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/commanders-buccaneers-week-1-2024">Washington  @  Tampa Bay</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Raymond James Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/rams-lions-week-1-2024">LA Rams  @  Detroit</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20"> 8:20 PM</td>
+			    			<td class="text-left nowrap">Ford Field</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Mon Sep  9</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/jets-49ers-week-1-2024">NY Jets  @  San Francisco</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15"> 8:15 PM</td>
+			    			<td class="text-left nowrap">Levi's Stadium</td>
+			  		</tr>
+									
+									        </tbody>
+				</table></div></div></div>
+							<h4>Week 2</h4>
+					<div id="DataTables_Table_1_wrapper" class="dataTables_wrapper no-footer"><div class="scroll-wrapper"><div><table class="tr-table datatable scrollable nosort dataTable no-footer" id="DataTables_Table_1" role="grid">
+	
+								        <thead>
+				        <tr role="row"><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.797px;" rowspan="1" colspan="1">Thu Sep 12</th><th class="text-left nowrap sort-asc-first sort-first sorting_disabled" style="width: 120.391px;" rowspan="1" colspan="1">Time</th><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.812px;" rowspan="1" colspan="1">Location</th></tr>
+				</thead>
+				<tbody>
+						  	        
+									
+	
+							        <tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bills-dolphins-week-2-2024">Buffalo  @  Miami</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15">8:15 PM</td>
+			    			<td class="text-left nowrap">Hard Rock Stadium</td>
+			  		</tr></tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Sun Sep 15</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/raiders-ravens-week-2-2024">Las Vegas  @  Baltimore</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">M&amp;T Bank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/chargers-panthers-week-2-2024">LA Chargers  @  Carolina</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Bank of America Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/saints-cowboys-week-2-2024">New Orleans  @  Dallas</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">AT&amp;T Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/buccaneers-lions-week-2-2024">Tampa Bay  @  Detroit</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Ford Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/colts-packers-week-2-2024">Indianapolis  @  Green Bay</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Lambeau Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/49ers-vikings-week-2-2024">San Francisco  @  Minnesota</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">U.S. Bank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/seahawks-patriots-week-2-2024">Seattle  @  New England</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Gillette Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/jets-titans-week-2-2024">NY Jets  @  Tennessee</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Nissan Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/browns-jaguars-week-2-2024">Cleveland  @  Jacksonville</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">EverBank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/giants-commanders-week-2-2024">NY Giants  @  Washington</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Northwest Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/rams-cardinals-week-2-2024">LA Rams  @  Arizona</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">State Farm Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/steelers-broncos-week-2-2024">Pittsburgh  @  Denver</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Empower Field at Mile High</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bengals-chiefs-week-2-2024">Cincinnati  @  Kansas City</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">GEHA Field at Arrowhead Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bears-texans-week-2-2024">Chicago  @  Houston</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20"> 8:20 PM</td>
+			    			<td class="text-left nowrap">NRG Stadium</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Mon Sep 16</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/falcons-eagles-week-2-2024">Atlanta  @  Philadelphia</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15"> 8:15 PM</td>
+			    			<td class="text-left nowrap">Lincoln Financial Field</td>
+			  		</tr>
+									
+									        </tbody>
+				</table></div></div></div>
+							<h4>Week 3</h4>
+					<div id="DataTables_Table_2_wrapper" class="dataTables_wrapper no-footer"><div class="scroll-wrapper"><div><table class="tr-table datatable scrollable nosort dataTable no-footer" id="DataTables_Table_2" role="grid">
+	
+								        <thead>
+				        <tr role="row"><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.797px;" rowspan="1" colspan="1">Thu Sep 19</th><th class="text-left nowrap sort-asc-first sort-first sorting_disabled" style="width: 120.391px;" rowspan="1" colspan="1">Time</th><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.812px;" rowspan="1" colspan="1">Location</th></tr>
+				</thead>
+				<tbody>
+						  	        
+									
+	
+							        <tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/patriots-jets-week-3-2024">New England  @  NY Jets</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15">8:15 PM</td>
+			    			<td class="text-left nowrap">MetLife Stadium</td>
+			  		</tr></tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Sun Sep 22</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/giants-browns-week-3-2024">NY Giants  @  Cleveland</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Huntington Bank Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bears-colts-week-3-2024">Chicago  @  Indianapolis</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Lucas Oil Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/texans-vikings-week-3-2024">Houston  @  Minnesota</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">U.S. Bank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/eagles-saints-week-3-2024">Philadelphia  @  New Orleans</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Caesars Superdome</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/chargers-steelers-week-3-2024">LA Chargers  @  Pittsburgh</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Acrisure Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/broncos-buccaneers-week-3-2024">Denver  @  Tampa Bay</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Raymond James Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/packers-titans-week-3-2024">Green Bay  @  Tennessee</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Nissan Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/panthers-raiders-week-3-2024">Carolina  @  Las Vegas</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">Allegiant Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/dolphins-seahawks-week-3-2024">Miami  @  Seattle</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">Lumen Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/lions-cardinals-week-3-2024">Detroit  @  Arizona</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">State Farm Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/ravens-cowboys-week-3-2024">Baltimore  @  Dallas</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">AT&amp;T Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/49ers-rams-week-3-2024">San Francisco  @  LA Rams</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">SoFi Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/chiefs-falcons-week-3-2024">Kansas City  @  Atlanta</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20"> 8:20 PM</td>
+			    			<td class="text-left nowrap">Mercedes-Benz Stadium</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Mon Sep 23</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/jaguars-bills-week-3-2024">Jacksonville  @  Buffalo</a></td>
+			  						    			<td class="text-left nowrap" data-sort="19:30"> 7:30 PM</td>
+			    			<td class="text-left nowrap">Highmark Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/commanders-bengals-week-3-2024">Washington  @  Cincinnati</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15"> 8:15 PM</td>
+			    			<td class="text-left nowrap">Paycor Stadium</td>
+			  		</tr>
+									
+									        </tbody>
+				</table></div></div></div>
+							<h4>Week 4</h4>
+					<div id="DataTables_Table_3_wrapper" class="dataTables_wrapper no-footer"><div class="scroll-wrapper"><div><table class="tr-table datatable scrollable nosort dataTable no-footer" id="DataTables_Table_3" role="grid">
+	
+								        <thead>
+				        <tr role="row"><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.797px;" rowspan="1" colspan="1">Thu Sep 26</th><th class="text-left nowrap sort-asc-first sort-first sorting_disabled" style="width: 120.391px;" rowspan="1" colspan="1">Time</th><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.812px;" rowspan="1" colspan="1">Location</th></tr>
+				</thead>
+				<tbody>
+						  	        
+									
+	
+							        <tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/cowboys-giants-week-4-2024">Dallas  @  NY Giants</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15">8:15 PM</td>
+			    			<td class="text-left nowrap">MetLife Stadium</td>
+			  		</tr></tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Sun Sep 29</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/saints-falcons-week-4-2024">New Orleans  @  Atlanta</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Mercedes-Benz Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bengals-panthers-week-4-2024">Cincinnati  @  Carolina</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Bank of America Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/rams-bears-week-4-2024">LA Rams  @  Chicago</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Soldier Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/vikings-packers-week-4-2024">Minnesota  @  Green Bay</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Lambeau Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/jaguars-texans-week-4-2024">Jacksonville  @  Houston</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">NRG Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/steelers-colts-week-4-2024">Pittsburgh  @  Indianapolis</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Lucas Oil Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/broncos-jets-week-4-2024">Denver  @  NY Jets</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">MetLife Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/eagles-buccaneers-week-4-2024">Philadelphia  @  Tampa Bay</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Raymond James Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/commanders-cardinals-week-4-2024">Washington  @  Arizona</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">State Farm Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/patriots-49ers-week-4-2024">New England  @  San Francisco</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">Levi's Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/chiefs-chargers-week-4-2024">Kansas City  @  LA Chargers</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">SoFi Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/browns-raiders-week-4-2024">Cleveland  @  Las Vegas</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Allegiant Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bills-ravens-week-4-2024">Buffalo  @  Baltimore</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20"> 8:20 PM</td>
+			    			<td class="text-left nowrap">M&amp;T Bank Stadium</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Mon Sep 30</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/titans-dolphins-week-4-2024">Tennessee  @  Miami</a></td>
+			  						    			<td class="text-left nowrap" data-sort="19:30"> 7:30 PM</td>
+			    			<td class="text-left nowrap">Hard Rock Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/seahawks-lions-week-4-2024">Seattle  @  Detroit</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15"> 8:15 PM</td>
+			    			<td class="text-left nowrap">Ford Field</td>
+			  		</tr>
+									
+									        </tbody>
+				</table></div></div></div>
+							<h4>Week 5</h4>
+					<div id="DataTables_Table_4_wrapper" class="dataTables_wrapper no-footer"><div class="scroll-wrapper"><div><table class="tr-table datatable scrollable nosort dataTable no-footer" id="DataTables_Table_4" role="grid">
+	
+								        <thead>
+				        <tr role="row"><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.797px;" rowspan="1" colspan="1">Thu Oct  3</th><th class="text-left nowrap sort-asc-first sort-first sorting_disabled" style="width: 120.391px;" rowspan="1" colspan="1">Time</th><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.812px;" rowspan="1" colspan="1">Location</th></tr>
+				</thead>
+				<tbody>
+						  	        
+									
+	
+							        <tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/buccaneers-falcons-week-5-2024">Tampa Bay  @  Atlanta</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15">8:15 PM</td>
+			    			<td class="text-left nowrap">Mercedes-Benz Stadium</td>
+			  		</tr></tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Sun Oct  6</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/jets-vikings-week-5-2024">NY Jets  vs.  Minnesota</a></td>
+			  						    			<td class="text-left nowrap" data-sort=" 9:30"> 9:30 AM</td>
+			    			<td class="text-left nowrap">Tottenham Hotspur Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/panthers-bears-week-5-2024">Carolina  @  Chicago</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Soldier Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/ravens-bengals-week-5-2024">Baltimore  @  Cincinnati</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Paycor Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bills-texans-week-5-2024">Buffalo  @  Houston</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">NRG Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/dolphins-patriots-week-5-2024">Miami  @  New England</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Gillette Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/colts-jaguars-week-5-2024">Indianapolis  @  Jacksonville</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">EverBank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/browns-commanders-week-5-2024">Cleveland  @  Washington</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Northwest Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/raiders-broncos-week-5-2024">Las Vegas  @  Denver</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">Empower Field at Mile High</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/cardinals-49ers-week-5-2024">Arizona  @  San Francisco</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">Levi's Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/packers-rams-week-5-2024">Green Bay  @  LA Rams</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">SoFi Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/giants-seahawks-week-5-2024">NY Giants  @  Seattle</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Lumen Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/cowboys-steelers-week-5-2024">Dallas  @  Pittsburgh</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20"> 8:20 PM</td>
+			    			<td class="text-left nowrap">Acrisure Stadium</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Mon Oct  7</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/saints-chiefs-week-5-2024">New Orleans  @  Kansas City</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15"> 8:15 PM</td>
+			    			<td class="text-left nowrap">GEHA Field at Arrowhead Stadium</td>
+			  		</tr>
+									
+									        </tbody>
+				</table></div></div></div>
+							<h4>Week 6</h4>
+					<div id="DataTables_Table_5_wrapper" class="dataTables_wrapper no-footer"><div class="scroll-wrapper"><div><table class="tr-table datatable scrollable nosort dataTable no-footer" id="DataTables_Table_5" role="grid">
+	
+								        <thead>
+				        <tr role="row"><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.797px;" rowspan="1" colspan="1">Thu Oct 10</th><th class="text-left nowrap sort-asc-first sort-first sorting_disabled" style="width: 120.391px;" rowspan="1" colspan="1">Time</th><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.812px;" rowspan="1" colspan="1">Location</th></tr>
+				</thead>
+				<tbody>
+						  	        
+									
+	
+							        <tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/49ers-seahawks-week-6-2024">San Francisco  @  Seattle</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15">8:15 PM</td>
+			    			<td class="text-left nowrap">Lumen Field</td>
+			  		</tr></tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Sun Oct 13</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/jaguars-bears-week-6-2024">Jacksonville  vs.  Chicago</a></td>
+			  						    			<td class="text-left nowrap" data-sort=" 9:30"> 9:30 AM</td>
+			    			<td class="text-left nowrap">Tottenham Hotspur Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/commanders-ravens-week-6-2024">Washington  @  Baltimore</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">M&amp;T Bank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/cardinals-packers-week-6-2024">Arizona  @  Green Bay</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Lambeau Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/texans-patriots-week-6-2024">Houston  @  New England</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Gillette Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/buccaneers-saints-week-6-2024">Tampa Bay  @  New Orleans</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Caesars Superdome</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/browns-eagles-week-6-2024">Cleveland  @  Philadelphia</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Lincoln Financial Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/colts-titans-week-6-2024">Indianapolis  @  Tennessee</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Nissan Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/chargers-broncos-week-6-2024">LA Chargers  @  Denver</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">Empower Field at Mile High</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/steelers-raiders-week-6-2024">Pittsburgh  @  Las Vegas</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">Allegiant Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/falcons-panthers-week-6-2024">Atlanta  @  Carolina</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Bank of America Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/lions-cowboys-week-6-2024">Detroit  @  Dallas</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">AT&amp;T Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bengals-giants-week-6-2024">Cincinnati  @  NY Giants</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20"> 8:20 PM</td>
+			    			<td class="text-left nowrap">MetLife Stadium</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Mon Oct 14</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bills-jets-week-6-2024">Buffalo  @  NY Jets</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15"> 8:15 PM</td>
+			    			<td class="text-left nowrap">MetLife Stadium</td>
+			  		</tr>
+									
+									        </tbody>
+				</table></div></div></div>
+							<h4>Week 7</h4>
+					<div id="DataTables_Table_6_wrapper" class="dataTables_wrapper no-footer"><div class="scroll-wrapper"><div><table class="tr-table datatable scrollable nosort dataTable no-footer" id="DataTables_Table_6" role="grid">
+	
+								        <thead>
+				        <tr role="row"><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.797px;" rowspan="1" colspan="1">Thu Oct 17</th><th class="text-left nowrap sort-asc-first sort-first sorting_disabled" style="width: 120.391px;" rowspan="1" colspan="1">Time</th><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.812px;" rowspan="1" colspan="1">Location</th></tr>
+				</thead>
+				<tbody>
+						  	        
+									
+	
+							        <tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/broncos-saints-week-7-2024">Denver  @  New Orleans</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15">8:15 PM</td>
+			    			<td class="text-left nowrap">Caesars Superdome</td>
+			  		</tr></tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Sun Oct 20</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/patriots-jaguars-week-7-2024">New England  vs.  Jacksonville</a></td>
+			  						    			<td class="text-left nowrap" data-sort=" 9:30"> 9:30 AM</td>
+			    			<td class="text-left nowrap">Wembley Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/seahawks-falcons-week-7-2024">Seattle  @  Atlanta</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Mercedes-Benz Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/titans-bills-week-7-2024">Tennessee  @  Buffalo</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Highmark Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bengals-browns-week-7-2024">Cincinnati  @  Cleveland</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Huntington Bank Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/texans-packers-week-7-2024">Houston  @  Green Bay</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Lambeau Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/dolphins-colts-week-7-2024">Miami  @  Indianapolis</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Lucas Oil Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/lions-vikings-week-7-2024">Detroit  @  Minnesota</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">U.S. Bank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/eagles-giants-week-7-2024">Philadelphia  @  NY Giants</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">MetLife Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/raiders-rams-week-7-2024">Las Vegas  @  LA Rams</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">SoFi Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/panthers-commanders-week-7-2024">Carolina  @  Washington</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">Northwest Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/chiefs-49ers-week-7-2024">Kansas City  @  San Francisco</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Levi's Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/jets-steelers-week-7-2024">NY Jets  @  Pittsburgh</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20"> 8:20 PM</td>
+			    			<td class="text-left nowrap">Acrisure Stadium</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Mon Oct 21</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/ravens-buccaneers-week-7-2024">Baltimore  @  Tampa Bay</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15"> 8:15 PM</td>
+			    			<td class="text-left nowrap">Raymond James Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/chargers-cardinals-week-7-2024">LA Chargers  @  Arizona</a></td>
+			  						    			<td class="text-left nowrap" data-sort="21:00"> 9:00 PM</td>
+			    			<td class="text-left nowrap">State Farm Stadium</td>
+			  		</tr>
+									
+									        </tbody>
+				</table></div></div></div>
+							<h4>Week 8</h4>
+					<div id="DataTables_Table_7_wrapper" class="dataTables_wrapper no-footer"><div class="scroll-wrapper"><div><table class="tr-table datatable scrollable nosort dataTable no-footer" id="DataTables_Table_7" role="grid">
+	
+								        <thead>
+				        <tr role="row"><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.797px;" rowspan="1" colspan="1">Thu Oct 24</th><th class="text-left nowrap sort-asc-first sort-first sorting_disabled" style="width: 120.391px;" rowspan="1" colspan="1">Time</th><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.812px;" rowspan="1" colspan="1">Location</th></tr>
+				</thead>
+				<tbody>
+						  	        
+									
+	
+							        <tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/vikings-rams-week-8-2024">Minnesota  @  LA Rams</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15">8:15 PM</td>
+			    			<td class="text-left nowrap">SoFi Stadium</td>
+			  		</tr></tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Sun Oct 27</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/ravens-browns-week-8-2024">Baltimore  @  Cleveland</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Huntington Bank Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/titans-lions-week-8-2024">Tennessee  @  Detroit</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Ford Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/colts-texans-week-8-2024">Indianapolis  @  Houston</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">NRG Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/cardinals-dolphins-week-8-2024">Arizona  @  Miami</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Hard Rock Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/jets-patriots-week-8-2024">NY Jets  @  New England</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Gillette Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/falcons-buccaneers-week-8-2024">Atlanta  @  Tampa Bay</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Raymond James Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/packers-jaguars-week-8-2024">Green Bay  @  Jacksonville</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">EverBank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bears-commanders-week-8-2024">Chicago  @  Washington</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Northwest Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/saints-chargers-week-8-2024">New Orleans  @  LA Chargers</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">SoFi Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bills-seahawks-week-8-2024">Buffalo  @  Seattle</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">Lumen Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/eagles-bengals-week-8-2024">Philadelphia  @  Cincinnati</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Paycor Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/panthers-broncos-week-8-2024">Carolina  @  Denver</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Empower Field at Mile High</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/chiefs-raiders-week-8-2024">Kansas City  @  Las Vegas</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Allegiant Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/cowboys-49ers-week-8-2024">Dallas  @  San Francisco</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20"> 8:20 PM</td>
+			    			<td class="text-left nowrap">Levi's Stadium</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Mon Oct 28</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/giants-steelers-week-8-2024">NY Giants  @  Pittsburgh</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15"> 8:15 PM</td>
+			    			<td class="text-left nowrap">Acrisure Stadium</td>
+			  		</tr>
+									
+									        </tbody>
+				</table></div></div></div>
+							<h4>Week 9</h4>
+					<div id="DataTables_Table_8_wrapper" class="dataTables_wrapper no-footer"><div class="scroll-wrapper"><div><table class="tr-table datatable scrollable nosort dataTable no-footer" id="DataTables_Table_8" role="grid">
+	
+								        <thead>
+				        <tr role="row"><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.797px;" rowspan="1" colspan="1">Thu Oct 31</th><th class="text-left nowrap sort-asc-first sort-first sorting_disabled" style="width: 120.391px;" rowspan="1" colspan="1">Time</th><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.812px;" rowspan="1" colspan="1">Location</th></tr>
+				</thead>
+				<tbody>
+						  	        
+									
+	
+							        <tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/texans-jets-week-9-2024">Houston  @  NY Jets</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15">8:15 PM</td>
+			    			<td class="text-left nowrap">MetLife Stadium</td>
+			  		</tr></tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Sun Nov  3</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/cowboys-falcons-week-9-2024">Dallas  @  Atlanta</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Mercedes-Benz Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/broncos-ravens-week-9-2024">Denver  @  Baltimore</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">M&amp;T Bank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/dolphins-bills-week-9-2024">Miami  @  Buffalo</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Highmark Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/saints-panthers-week-9-2024">New Orleans  @  Carolina</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Bank of America Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/raiders-bengals-week-9-2024">Las Vegas  @  Cincinnati</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Paycor Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/chargers-browns-week-9-2024">LA Chargers  @  Cleveland</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Huntington Bank Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/colts-vikings-week-9-2024">Indianapolis  @  Minnesota</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">U.S. Bank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/commanders-giants-week-9-2024">Washington  @  NY Giants</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">MetLife Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/patriots-titans-week-9-2024">New England  @  Tennessee</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Nissan Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bears-cardinals-week-9-2024">Chicago  @  Arizona</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">State Farm Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/lions-packers-week-9-2024">Detroit  @  Green Bay</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Lambeau Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/rams-seahawks-week-9-2024">LA Rams  @  Seattle</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Lumen Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/jaguars-eagles-week-9-2024">Jacksonville  @  Philadelphia</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20"> 8:20 PM</td>
+			    			<td class="text-left nowrap">Lincoln Financial Field</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Mon Nov  4</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/buccaneers-chiefs-week-9-2024">Tampa Bay  @  Kansas City</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15"> 8:15 PM</td>
+			    			<td class="text-left nowrap">GEHA Field at Arrowhead Stadium</td>
+			  		</tr>
+									
+									        </tbody>
+				</table></div></div></div>
+							<h4>Week 10</h4>
+					<div id="DataTables_Table_9_wrapper" class="dataTables_wrapper no-footer"><div class="scroll-wrapper"><div><table class="tr-table datatable scrollable nosort dataTable no-footer" id="DataTables_Table_9" role="grid">
+	
+								        <thead>
+				        <tr role="row"><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.797px;" rowspan="1" colspan="1">Thu Nov  7</th><th class="text-left nowrap sort-asc-first sort-first sorting_disabled" style="width: 120.391px;" rowspan="1" colspan="1">Time</th><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.812px;" rowspan="1" colspan="1">Location</th></tr>
+				</thead>
+				<tbody>
+						  	        
+									
+	
+							        <tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bengals-ravens-week-10-2024">Cincinnati  @  Baltimore</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15">8:15 PM</td>
+			    			<td class="text-left nowrap">M&amp;T Bank Stadium</td>
+			  		</tr></tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Sun Nov 10</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/giants-panthers-week-10-2024">NY Giants  vs.  Carolina</a></td>
+			  						    			<td class="text-left nowrap" data-sort=" 9:30"> 9:30 AM</td>
+			    			<td class="text-left nowrap">Allianz Arena</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/patriots-bears-week-10-2024">New England  @  Chicago</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Soldier Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bills-colts-week-10-2024">Buffalo  @  Indianapolis</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Lucas Oil Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/broncos-chiefs-week-10-2024">Denver  @  Kansas City</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">GEHA Field at Arrowhead Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/falcons-saints-week-10-2024">Atlanta  @  New Orleans</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Caesars Superdome</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/49ers-buccaneers-week-10-2024">San Francisco  @  Tampa Bay</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Raymond James Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/vikings-jaguars-week-10-2024">Minnesota  @  Jacksonville</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">EverBank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/steelers-commanders-week-10-2024">Pittsburgh  @  Washington</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Northwest Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/titans-chargers-week-10-2024">Tennessee  @  LA Chargers</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">SoFi Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/jets-cardinals-week-10-2024">NY Jets  @  Arizona</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">State Farm Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/eagles-cowboys-week-10-2024">Philadelphia  @  Dallas</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">AT&amp;T Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/lions-texans-week-10-2024">Detroit  @  Houston</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20"> 8:20 PM</td>
+			    			<td class="text-left nowrap">NRG Stadium</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Mon Nov 11</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/dolphins-rams-week-10-2024">Miami  @  LA Rams</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15"> 8:15 PM</td>
+			    			<td class="text-left nowrap">SoFi Stadium</td>
+			  		</tr>
+									
+									        </tbody>
+				</table></div></div></div>
+							<h4>Week 11</h4>
+					<div id="DataTables_Table_10_wrapper" class="dataTables_wrapper no-footer"><div class="scroll-wrapper"><div><table class="tr-table datatable scrollable nosort dataTable no-footer" id="DataTables_Table_10" role="grid">
+	
+								        <thead>
+				        <tr role="row"><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.797px;" rowspan="1" colspan="1">Thu Nov 14</th><th class="text-left nowrap sort-asc-first sort-first sorting_disabled" style="width: 120.391px;" rowspan="1" colspan="1">Time</th><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.812px;" rowspan="1" colspan="1">Location</th></tr>
+				</thead>
+				<tbody>
+						  	        
+									
+	
+							        <tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/commanders-eagles-week-11-2024">Washington  @  Philadelphia</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15">8:15 PM</td>
+			    			<td class="text-left nowrap">Lincoln Financial Field</td>
+			  		</tr></tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Sun Nov 17</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/packers-bears-week-11-2024">Green Bay  @  Chicago</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Soldier Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/jaguars-lions-week-11-2024">Jacksonville  @  Detroit</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Ford Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/raiders-dolphins-week-11-2024">Las Vegas  @  Miami</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Hard Rock Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/rams-patriots-week-11-2024">LA Rams  @  New England</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Gillette Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/browns-saints-week-11-2024">Cleveland  @  New Orleans</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Caesars Superdome</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/ravens-steelers-week-11-2024">Baltimore  @  Pittsburgh</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Acrisure Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/vikings-titans-week-11-2024">Minnesota  @  Tennessee</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Nissan Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/falcons-broncos-week-11-2024">Atlanta  @  Denver</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">Empower Field at Mile High</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/seahawks-49ers-week-11-2024">Seattle  @  San Francisco</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">Levi's Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/chiefs-bills-week-11-2024">Kansas City  @  Buffalo</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Highmark Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bengals-chargers-week-11-2024">Cincinnati  @  LA Chargers</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">SoFi Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/colts-jets-week-11-2024">Indianapolis  @  NY Jets</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20"> 8:20 PM</td>
+			    			<td class="text-left nowrap">MetLife Stadium</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Mon Nov 18</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/texans-cowboys-week-11-2024">Houston  @  Dallas</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15"> 8:15 PM</td>
+			    			<td class="text-left nowrap">AT&amp;T Stadium</td>
+			  		</tr>
+									
+									        </tbody>
+				</table></div></div></div>
+							<h4>Week 12</h4>
+					<div id="DataTables_Table_11_wrapper" class="dataTables_wrapper no-footer"><div class="scroll-wrapper"><div><table class="tr-table datatable scrollable nosort dataTable no-footer" id="DataTables_Table_11" role="grid">
+	
+								        <thead>
+				        <tr role="row"><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.797px;" rowspan="1" colspan="1">Thu Nov 21</th><th class="text-left nowrap sort-asc-first sort-first sorting_disabled" style="width: 120.391px;" rowspan="1" colspan="1">Time</th><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.812px;" rowspan="1" colspan="1">Location</th></tr>
+				</thead>
+				<tbody>
+						  	        
+									
+	
+							        <tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/steelers-browns-week-12-2024">Pittsburgh  @  Cleveland</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15">8:15 PM</td>
+			    			<td class="text-left nowrap">Huntington Bank Field</td>
+			  		</tr></tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Sun Nov 24</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/chiefs-panthers-week-12-2024">Kansas City  @  Carolina</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Bank of America Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/vikings-bears-week-12-2024">Minnesota  @  Chicago</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Soldier Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/titans-texans-week-12-2024">Tennessee  @  Houston</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">NRG Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/lions-colts-week-12-2024">Detroit  @  Indianapolis</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Lucas Oil Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/patriots-dolphins-week-12-2024">New England  @  Miami</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Hard Rock Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/buccaneers-giants-week-12-2024">Tampa Bay  @  NY Giants</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">MetLife Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/cowboys-commanders-week-12-2024">Dallas  @  Washington</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Northwest Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/broncos-raiders-week-12-2024">Denver  @  Las Vegas</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">Allegiant Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/49ers-packers-week-12-2024">San Francisco  @  Green Bay</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Lambeau Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/cardinals-seahawks-week-12-2024">Arizona  @  Seattle</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Lumen Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/eagles-rams-week-12-2024">Philadelphia  @  LA Rams</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20"> 8:20 PM</td>
+			    			<td class="text-left nowrap">SoFi Stadium</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Mon Nov 25</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/ravens-chargers-week-12-2024">Baltimore  @  LA Chargers</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15"> 8:15 PM</td>
+			    			<td class="text-left nowrap">SoFi Stadium</td>
+			  		</tr>
+									
+									        </tbody>
+				</table></div></div></div>
+							<h4>Week 13</h4>
+					<div id="DataTables_Table_12_wrapper" class="dataTables_wrapper no-footer"><div class="scroll-wrapper"><div><table class="tr-table datatable scrollable nosort dataTable no-footer" id="DataTables_Table_12" role="grid">
+	
+								        <thead>
+				        <tr role="row"><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.797px;" rowspan="1" colspan="1">Thu Nov 28</th><th class="text-left nowrap sort-asc-first sort-first sorting_disabled" style="width: 120.391px;" rowspan="1" colspan="1">Time</th><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.812px;" rowspan="1" colspan="1">Location</th></tr>
+				</thead>
+				<tbody>
+						  	        
+									
+	
+						  	        
+									
+	
+						  	        
+									
+	
+							        <tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bears-lions-week-13-2024">Chicago  @  Detroit</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:30">12:30 PM</td>
+			    			<td class="text-left nowrap">Ford Field</td>
+			  		</tr><tr role="row" class="even">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/giants-cowboys-week-13-2024">NY Giants  @  Dallas</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:30">4:30 PM</td>
+			    			<td class="text-left nowrap">AT&amp;T Stadium</td>
+			  		</tr><tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/dolphins-packers-week-13-2024">Miami  @  Green Bay</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20">8:20 PM</td>
+			    			<td class="text-left nowrap">Lambeau Field</td>
+			  		</tr></tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Fri Nov 29</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/raiders-chiefs-week-13-2024">Las Vegas  @  Kansas City</a></td>
+			  						    			<td class="text-left nowrap" data-sort="15:00"> 3:00 PM</td>
+			    			<td class="text-left nowrap">GEHA Field at Arrowhead Stadium</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Sun Dec  1</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/chargers-falcons-week-13-2024">LA Chargers  @  Atlanta</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Mercedes-Benz Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/steelers-bengals-week-13-2024">Pittsburgh  @  Cincinnati</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Paycor Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/cardinals-vikings-week-13-2024">Arizona  @  Minnesota</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">U.S. Bank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/colts-patriots-week-13-2024">Indianapolis  @  New England</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Gillette Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/seahawks-jets-week-13-2024">Seattle  @  NY Jets</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">MetLife Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/texans-jaguars-week-13-2024">Houston  @  Jacksonville</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">EverBank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/titans-commanders-week-13-2024">Tennessee  @  Washington</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Northwest Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/buccaneers-panthers-week-13-2024">Tampa Bay  @  Carolina</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">Bank of America Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/rams-saints-week-13-2024">LA Rams  @  New Orleans</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">Caesars Superdome</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/eagles-ravens-week-13-2024">Philadelphia  @  Baltimore</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">M&amp;T Bank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/49ers-bills-week-13-2024">San Francisco  @  Buffalo</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20"> 8:20 PM</td>
+			    			<td class="text-left nowrap">Highmark Stadium</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Mon Dec  2</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/browns-broncos-week-13-2024">Cleveland  @  Denver</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15"> 8:15 PM</td>
+			    			<td class="text-left nowrap">Empower Field at Mile High</td>
+			  		</tr>
+									
+									        </tbody>
+				</table></div></div></div>
+							<h4>Week 14</h4>
+					<div id="DataTables_Table_13_wrapper" class="dataTables_wrapper no-footer"><div class="scroll-wrapper"><div><table class="tr-table datatable scrollable nosort dataTable no-footer" id="DataTables_Table_13" role="grid">
+	
+								        <thead>
+				        <tr role="row"><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.797px;" rowspan="1" colspan="1">Thu Dec  5</th><th class="text-left nowrap sort-asc-first sort-first sorting_disabled" style="width: 120.391px;" rowspan="1" colspan="1">Time</th><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.812px;" rowspan="1" colspan="1">Location</th></tr>
+				</thead>
+				<tbody>
+						  	        
+									
+	
+							        <tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/packers-lions-week-14-2024">Green Bay  @  Detroit</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15">8:15 PM</td>
+			    			<td class="text-left nowrap">Ford Field</td>
+			  		</tr></tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Sun Dec  8</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/jets-dolphins-week-14-2024">NY Jets  @  Miami</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Hard Rock Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/falcons-vikings-week-14-2024">Atlanta  @  Minnesota</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">U.S. Bank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/saints-giants-week-14-2024">New Orleans  @  NY Giants</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">MetLife Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/panthers-eagles-week-14-2024">Carolina  @  Philadelphia</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Lincoln Financial Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/browns-steelers-week-14-2024">Cleveland  @  Pittsburgh</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Acrisure Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/raiders-buccaneers-week-14-2024">Las Vegas  @  Tampa Bay</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Raymond James Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/jaguars-titans-week-14-2024">Jacksonville  @  Tennessee</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Nissan Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/seahawks-cardinals-week-14-2024">Seattle  @  Arizona</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">State Farm Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bills-rams-week-14-2024">Buffalo  @  LA Rams</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">SoFi Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bears-49ers-week-14-2024">Chicago  @  San Francisco</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Levi's Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/chargers-chiefs-week-14-2024">LA Chargers  @  Kansas City</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20"> 8:20 PM</td>
+			    			<td class="text-left nowrap">GEHA Field at Arrowhead Stadium</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Mon Dec  9</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bengals-cowboys-week-14-2024">Cincinnati  @  Dallas</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15"> 8:15 PM</td>
+			    			<td class="text-left nowrap">AT&amp;T Stadium</td>
+			  		</tr>
+									
+									        </tbody>
+				</table></div></div></div>
+							<h4>Week 15</h4>
+					<div id="DataTables_Table_14_wrapper" class="dataTables_wrapper no-footer"><div class="scroll-wrapper"><div><table class="tr-table datatable scrollable nosort dataTable no-footer" id="DataTables_Table_14" role="grid">
+	
+								        <thead>
+				        <tr role="row"><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.797px;" rowspan="1" colspan="1">Thu Dec 12</th><th class="text-left nowrap sort-asc-first sort-first sorting_disabled" style="width: 120.391px;" rowspan="1" colspan="1">Time</th><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.812px;" rowspan="1" colspan="1">Location</th></tr>
+				</thead>
+				<tbody>
+						  	        
+									
+	
+							        <tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/rams-49ers-week-15-2024">LA Rams  @  San Francisco</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15">8:15 PM</td>
+			    			<td class="text-left nowrap">Levi's Stadium</td>
+			  		</tr></tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Sun Dec 15</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/cowboys-panthers-week-15-2024">Dallas  @  Carolina</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Bank of America Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/chiefs-browns-week-15-2024">Kansas City  @  Cleveland</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Huntington Bank Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/dolphins-texans-week-15-2024">Miami  @  Houston</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">NRG Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/commanders-saints-week-15-2024">Washington  @  New Orleans</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Caesars Superdome</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/ravens-giants-week-15-2024">Baltimore  @  NY Giants</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">MetLife Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bengals-titans-week-15-2024">Cincinnati  @  Tennessee</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Nissan Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/jets-jaguars-week-15-2024">NY Jets  @  Jacksonville</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">EverBank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/patriots-cardinals-week-15-2024">New England  @  Arizona</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">State Farm Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/colts-broncos-week-15-2024">Indianapolis  @  Denver</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Empower Field at Mile High</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bills-lions-week-15-2024">Buffalo  @  Detroit</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Ford Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/buccaneers-chargers-week-15-2024">Tampa Bay  @  LA Chargers</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">SoFi Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/steelers-eagles-week-15-2024">Pittsburgh  @  Philadelphia</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Lincoln Financial Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/packers-seahawks-week-15-2024">Green Bay  @  Seattle</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20"> 8:20 PM</td>
+			    			<td class="text-left nowrap">Lumen Field</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Mon Dec 16</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bears-vikings-week-15-2024">Chicago  @  Minnesota</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:00"> 8:00 PM</td>
+			    			<td class="text-left nowrap">U.S. Bank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/falcons-raiders-week-15-2024">Atlanta  @  Las Vegas</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:30"> 8:30 PM</td>
+			    			<td class="text-left nowrap">Allegiant Stadium</td>
+			  		</tr>
+									
+									        </tbody>
+				</table></div></div></div>
+							<h4>Week 16</h4>
+					<div id="DataTables_Table_15_wrapper" class="dataTables_wrapper no-footer"><div class="scroll-wrapper"><div><table class="tr-table datatable scrollable nosort dataTable no-footer" id="DataTables_Table_15" role="grid">
+	
+								        <thead>
+				        <tr role="row"><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.797px;" rowspan="1" colspan="1">Thu Dec 19</th><th class="text-left nowrap sort-asc-first sort-first sorting_disabled" style="width: 120.391px;" rowspan="1" colspan="1">Time</th><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.812px;" rowspan="1" colspan="1">Location</th></tr>
+				</thead>
+				<tbody>
+						  	        
+									
+	
+							        <tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/browns-bengals-week-16-2024">Cleveland  @  Cincinnati</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15">8:15 PM</td>
+			    			<td class="text-left nowrap">Paycor Stadium</td>
+			  		</tr></tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Sat Dec 21</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/texans-chiefs-week-16-2024">Houston  @  Kansas City</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">GEHA Field at Arrowhead Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/steelers-ravens-week-16-2024">Pittsburgh  @  Baltimore</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:30"> 4:30 PM</td>
+			    			<td class="text-left nowrap">M&amp;T Bank Stadium</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Sun Dec 22</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/giants-falcons-week-16-2024">NY Giants  @  Atlanta</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Mercedes-Benz Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/patriots-bills-week-16-2024">New England  @  Buffalo</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Highmark Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/cardinals-panthers-week-16-2024">Arizona  @  Carolina</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Bank of America Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/lions-bears-week-16-2024">Detroit  @  Chicago</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Soldier Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/titans-colts-week-16-2024">Tennessee  @  Indianapolis</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Lucas Oil Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/rams-jets-week-16-2024">LA Rams  @  NY Jets</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">MetLife Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/eagles-commanders-week-16-2024">Philadelphia  @  Washington</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Northwest Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/broncos-chargers-week-16-2024">Denver  @  LA Chargers</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">SoFi Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/vikings-seahawks-week-16-2024">Minnesota  @  Seattle</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:05"> 4:05 PM</td>
+			    			<td class="text-left nowrap">Lumen Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/jaguars-raiders-week-16-2024">Jacksonville  @  Las Vegas</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Allegiant Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/49ers-dolphins-week-16-2024">San Francisco  @  Miami</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Hard Rock Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/buccaneers-cowboys-week-16-2024">Tampa Bay  @  Dallas</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20"> 8:20 PM</td>
+			    			<td class="text-left nowrap">AT&amp;T Stadium</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Mon Dec 23</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/saints-packers-week-16-2024">New Orleans  @  Green Bay</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15"> 8:15 PM</td>
+			    			<td class="text-left nowrap">Lambeau Field</td>
+			  		</tr>
+									
+									        </tbody>
+				</table></div></div></div>
+							<h4>Week 17</h4>
+					<div id="DataTables_Table_16_wrapper" class="dataTables_wrapper no-footer"><div class="scroll-wrapper"><div><table class="tr-table datatable scrollable nosort dataTable no-footer" id="DataTables_Table_16" role="grid">
+	
+								        <thead>
+				        <tr role="row"><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.797px;" rowspan="1" colspan="1">Wed Dec 25</th><th class="text-left nowrap sort-asc-first sort-first sorting_disabled" style="width: 120.391px;" rowspan="1" colspan="1">Time</th><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.812px;" rowspan="1" colspan="1">Location</th></tr>
+				</thead>
+				<tbody>
+						  	        
+									
+	
+						  	        
+									
+	
+							        <tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/chiefs-steelers-week-17-2024">Kansas City  @  Pittsburgh</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00">1:00 PM</td>
+			    			<td class="text-left nowrap">Acrisure Stadium</td>
+			  		</tr><tr role="row" class="even">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/ravens-texans-week-17-2024">Baltimore  @  Houston</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:30">4:30 PM</td>
+			    			<td class="text-left nowrap">NRG Stadium</td>
+			  		</tr></tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Thu Dec 26</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/seahawks-bears-week-17-2024">Seattle  @  Chicago</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15"> 8:15 PM</td>
+			    			<td class="text-left nowrap">Soldier Field</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Sun Dec 29</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/broncos-bengals-week-17-2024">Denver  @  Cincinnati</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">Paycor Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/cardinals-rams-week-17-2024">Arizona  @  LA Rams</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">SoFi Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/chargers-patriots-week-17-2024">LA Chargers  @  New England</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">Gillette Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/colts-giants-week-17-2024">Indianapolis  @  NY Giants</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">MetLife Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/falcons-commanders-week-17-2024">Atlanta  @  Washington</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">Northwest Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/jets-bills-week-17-2024">NY Jets  @  Buffalo</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Highmark Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/packers-vikings-week-17-2024">Green Bay  @  Minnesota</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">U.S. Bank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/raiders-saints-week-17-2024">Las Vegas  @  New Orleans</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Caesars Superdome</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/panthers-buccaneers-week-17-2024">Carolina  @  Tampa Bay</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">Raymond James Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/titans-jaguars-week-17-2024">Tennessee  @  Jacksonville</a></td>
+			  						    			<td class="text-left nowrap" data-sort="13:00"> 1:00 PM</td>
+			    			<td class="text-left nowrap">EverBank Stadium</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/cowboys-eagles-week-17-2024">Dallas  @  Philadelphia</a></td>
+			  						    			<td class="text-left nowrap" data-sort="16:25"> 4:25 PM</td>
+			    			<td class="text-left nowrap">Lincoln Financial Field</td>
+			  		</tr>
+									
+	
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/dolphins-browns-week-17-2024">Miami  @  Cleveland</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:20"> 8:20 PM</td>
+			    			<td class="text-left nowrap">Huntington Bank Field</td>
+			  		</tr>
+									
+	
+							        </tbody>
+    					        <thead>
+				        <tr>
+					        <th class="text-left nowrap sort-asc-first" style="width:40%;">Mon Dec 30</th>
+                               			<th class="text-left nowrap sort-asc-first sort-first" style="width:20%;">Time</th>
+                               			<th class="text-left nowrap sort-asc-first" style="width:40%;">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+						  	        <tr>
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/lions-49ers-week-17-2024">Detroit  @  San Francisco</a></td>
+			  						    			<td class="text-left nowrap" data-sort="20:15"> 8:15 PM</td>
+			    			<td class="text-left nowrap">Levi's Stadium</td>
+			  		</tr>
+									
+									        </tbody>
+				</table></div></div></div>
+							<h4>Week 18</h4>
+					<div id="DataTables_Table_17_wrapper" class="dataTables_wrapper no-footer"><div class="scroll-wrapper"><div><table class="tr-table datatable scrollable nosort dataTable no-footer" id="DataTables_Table_17" role="grid">
+	
+								        <thead>
+				        <tr role="row"><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.797px;" rowspan="1" colspan="1">Sun Jan  5</th><th class="text-left nowrap sort-asc-first sort-first sorting_disabled" style="width: 120.391px;" rowspan="1" colspan="1">Time</th><th class="text-left nowrap sort-asc-first sorting_disabled" style="width: 247.812px;" rowspan="1" colspan="1">Location</th></tr>
+				</thead>
+				<tbody>
+						  	        
+									
+	
+						  	        
+									
+	
+						  	        
+									
+	
+						  	        
+									
+	
+						  	        
+									
+	
+						  	        
+									
+	
+						  	        
+									
+	
+						  	        
+									
+	
+						  	        
+									
+	
+						  	        
+									
+	
+						  	        
+									
+	
+						  	        
+									
+	
+						  	        
+									
+	
+						  	        
+									
+	
+						  	        
+									
+	
+						  	        
+				<tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/49ers-cardinals-week-18-2024">San Francisco  @  Arizona</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">State Farm Stadium</td>
+			  		</tr><tr role="row" class="even">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/panthers-falcons-week-18-2024">Carolina  @  Atlanta</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">Mercedes-Benz Stadium</td>
+			  		</tr><tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/browns-ravens-week-18-2024">Cleveland  @  Baltimore</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">M&amp;T Bank Stadium</td>
+			  		</tr><tr role="row" class="even">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/commanders-cowboys-week-18-2024">Washington  @  Dallas</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">AT&amp;T Stadium</td>
+			  		</tr><tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/chiefs-broncos-week-18-2024">Kansas City  @  Denver</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">Empower Field at Mile High</td>
+			  		</tr><tr role="row" class="even">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/vikings-lions-week-18-2024">Minnesota  @  Detroit</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">Ford Field</td>
+			  		</tr><tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bears-packers-week-18-2024">Chicago  @  Green Bay</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">Lambeau Field</td>
+			  		</tr><tr role="row" class="even">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/jaguars-colts-week-18-2024">Jacksonville  @  Indianapolis</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">Lucas Oil Stadium</td>
+			  		</tr><tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/seahawks-rams-week-18-2024">Seattle  @  LA Rams</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">SoFi Stadium</td>
+			  		</tr><tr role="row" class="even">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/chargers-raiders-week-18-2024">LA Chargers  @  Las Vegas</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">Allegiant Stadium</td>
+			  		</tr><tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bills-patriots-week-18-2024">Buffalo  @  New England</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">Gillette Stadium</td>
+			  		</tr><tr role="row" class="even">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/dolphins-jets-week-18-2024">Miami  @  NY Jets</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">MetLife Stadium</td>
+			  		</tr><tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/giants-eagles-week-18-2024">NY Giants  @  Philadelphia</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">Lincoln Financial Field</td>
+			  		</tr><tr role="row" class="even">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/bengals-steelers-week-18-2024">Cincinnati  @  Pittsburgh</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">Acrisure Stadium</td>
+			  		</tr><tr role="row" class="odd">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/saints-buccaneers-week-18-2024">New Orleans  @  Tampa Bay</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">Raymond James Stadium</td>
+			  		</tr><tr role="row" class="even">
+			  		        			    			        <td class="text-left nowrap"><a href="/nfl/matchup/texans-titans-week-18-2024">Houston  @  Tennessee</a></td>
+			  						    			<td class="text-left nowrap" data-sort="12:00">12:00 PM</td>
+			    			<td class="text-left nowrap">Nissan Stadium</td>
+			  		</tr></tbody>
+			</table></div></div></div>
+</main>
