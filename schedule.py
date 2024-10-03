@@ -48,7 +48,7 @@ def scrape_current_week_schedule(url):
 
 # Main execution
 if __name__ == "__main__":
-    url = "https://www.teamrankings.com/nfl/schedules/season/?week=0"  # Modify the URL if needed
+    url = "https://www.teamrankings.com/nfl/schedules/season/"  # Modify the URL if needed
     schedule_df = scrape_current_week_schedule(url)
 
     if schedule_df is not None:

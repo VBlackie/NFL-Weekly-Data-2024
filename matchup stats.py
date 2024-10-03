@@ -1,5 +1,7 @@
 import pandas as pd
 import xlwings as xw
+import re
+from datetime import datetime
 
 
 # Load the Weekly Schedule DataFrame (scraped from previous code)
@@ -37,7 +39,11 @@ def build_matchup_stats(schedule_df, nfl_stats_sheets):
 
     # Iterate over each row in the schedule (each matchup)
     for idx, row in schedule_df.iterrows():
-        teams = row['Teams'].split('@')
+        # Split teams by @, vs, or vs. (accounting for extra spaces and ensuring 'vs.' works properly)
+        teams = re.split(r'\s*@\s*|\s*vs\.\s*|\s*vs\s*', row['Teams'])
+
+        # Debugging: Print the teams to ensure proper splitting
+        print(f"Row {idx}: Splitting '{row['Teams']}' resulted in {teams}")
 
         if len(teams) != 2:
             print(f"Warning: Skipping malformed matchup in row {idx}: {row['Teams']}")
@@ -52,11 +58,13 @@ def build_matchup_stats(schedule_df, nfl_stats_sheets):
 
         # Calculate sum and average for team1
         team1_rank_sum = sum([r for r in team1_ranks if r is not None])
-        team1_rank_avg = team1_rank_sum / len([r for r in team1_ranks if r is not None])
+        team1_rank_count = len([r for r in team1_ranks if r is not None])
+        team1_rank_avg = team1_rank_sum / team1_rank_count if team1_rank_count > 0 else None
 
         # Calculate sum and average for team2
         team2_rank_sum = sum([r for r in team2_ranks if r is not None])
-        team2_rank_avg = team2_rank_sum / len([r for r in team2_ranks if r is not None])
+        team2_rank_count = len([r for r in team2_ranks if r is not None])
+        team2_rank_avg = team2_rank_sum / team2_rank_count if team2_rank_count > 0 else None
 
         # Append both teams' data into the final list, followed by a blank row
         final_data.append([team1] + team1_ranks + [team1_rank_sum, team1_rank_avg])
@@ -68,6 +76,19 @@ def build_matchup_stats(schedule_df, nfl_stats_sheets):
     final_df = pd.DataFrame(final_data, columns=column_names)
 
     return final_df
+
+
+# Function to save output with and without date signature
+def save_output_with_date(final_df):
+    current_date = datetime.now().strftime('%Y-%m-%d')
+
+    # Save with date in filename
+    final_df.to_excel(f'nfl_output_{current_date}.xlsx', index=False)
+
+    # Overwrite the static file for dashboard reference
+    final_df.to_excel('nfl_output.xlsx', index=False)
+
+    print(f"Files saved: 'nfl_output_{current_date}.xlsx' and 'nfl_output.xlsx'")
 
 
 # Main function to load the data, process it, and export it
@@ -84,8 +105,7 @@ def main():
     final_df = build_matchup_stats(schedule_df, nfl_stats_sheets)
 
     # Export the final DataFrame to Excel
-    final_df.to_excel('nfl_matchup_rankings_with_totals.xlsx', index=False)
-    print("Exported matchup rankings with totals to 'nfl_matchup_rankings_with_totals.xlsx'")
+    save_output_with_date(final_df)
 
 
 if __name__ == "__main__":
