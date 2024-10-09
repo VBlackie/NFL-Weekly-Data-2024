@@ -66,13 +66,15 @@ def build_matchup_stats(schedule_df, nfl_stats_sheets):
         team2_rank_count = len([r for r in team2_ranks if r is not None])
         team2_rank_avg = team2_rank_sum / team2_rank_count if team2_rank_count > 0 else None
 
-        # Append both teams' data into the final list, followed by a blank row
-        final_data.append([team1] + team1_ranks + [team1_rank_sum, team1_rank_avg])
-        final_data.append([team2] + team2_ranks + [team2_rank_sum, team2_rank_avg])
-        final_data.append([''] * (len(team1_ranks) + 3))  # Blank row
+        # Add match identifier
+        match_id = f'Match {idx + 1}'  # Match 1, Match 2, etc.
+
+        # Append both teams' data into the final list (no blank row)
+        final_data.append([match_id, team1] + team1_ranks + [team1_rank_sum, team1_rank_avg])
+        final_data.append([match_id, team2] + team2_ranks + [team2_rank_sum, team2_rank_avg])
 
     # Build final DataFrame with dynamic column names
-    column_names = ['Team'] + [f'Rank_{sheet}' for sheet in nfl_stats_sheets.keys()] + ['Rank Total', 'Rank Average']
+    column_names = ['Match ID', 'Team'] + [f'Rank_{sheet}' for sheet in nfl_stats_sheets.keys()] + ['Rank Total', 'Rank Average']
     final_df = pd.DataFrame(final_data, columns=column_names)
 
     return final_df
