@@ -15,7 +15,7 @@ def run_script(script_name):
 def main():
     # Define the list of scripts to run
     script_folder = os.path.dirname(__file__)  # Get current directory of the script
-    scripts = ["main.py", "schedule.py", "matchup stats.py"]
+    scripts = ["main.py", "schedule.py", "matchup stats.py","write_to_gsheets.py"]
 
     # Loop over each script and run it
     for script in scripts:
