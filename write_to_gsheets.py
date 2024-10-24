@@ -3,7 +3,16 @@ import gspread
 from google.oauth2.service_account import Credentials
 from dotenv import load_dotenv
 import os
+import logging
 
+# Set up logging
+logging.basicConfig(
+    filename='nfl_pipeline.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+)
+
+#Loading dotenv private variables
 load_dotenv()
 
 
@@ -46,5 +55,8 @@ if __name__ == "__main__":
     spreadsheet_id = os.getenv('SPREADSHEET_ID')  # Replace with your Google Sheet ID
     sheet_name = 'Sheet1'  # Replace with the name of the sheet you want to update
 
-    # Call the function to upload the data
-    upload_to_gsheets(excel_file, spreadsheet_id, sheet_name)
+    try:
+        upload_to_gsheets(excel_file, spreadsheet_id, sheet_name)
+        logging.info("ETL pipeline completed successfully.")
+    except Exception as e:
+        logging.error(f"ETL pipeline failed: {e}")

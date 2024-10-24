@@ -3,3 +3,4 @@
 *.pem
 *.env
 /Weekly Outputs/
+/nfl_pipeline.log

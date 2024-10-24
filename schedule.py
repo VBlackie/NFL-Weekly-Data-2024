@@ -1,6 +1,14 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import logging
+
+# Set up logging
+logging.basicConfig(
+    filename='nfl_pipeline.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+)
 
 
 # Function to scrape the current week's NFL schedule
@@ -51,7 +59,12 @@ if __name__ == "__main__":
     url = "https://www.teamrankings.com/nfl/schedules/season/"  # Modify the URL if needed
     schedule_df = scrape_current_week_schedule(url)
 
-    if schedule_df is not None:
-        print(schedule_df)
-        # Optionally, save to Excel
-        schedule_df.to_excel("nfl_current_week_schedule.xlsx", index=False)
+    try:
+        if schedule_df is not None:
+            print(schedule_df)
+            # Optionally, save to Excel
+            schedule_df.to_excel("nfl_current_week_schedule.xlsx", index=False)
+        logging.info("ETL schedule pipeline completed successfully.")
+    except Exception as e:
+        logging.error(f"ETL schedule pipeline failed: {e}")
+

@@ -2,6 +2,14 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import time
+import logging
+
+# Set up logging
+logging.basicConfig(
+    filename='nfl_pipeline.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+)
 
 
 # Function to scrape table from URL and generate DataFrame
@@ -108,4 +116,8 @@ for url in urls:
         all_dfs.append((df, df_name))
 
 # Save all DataFrames to an Excel file
-save_dfs_to_excel(all_dfs)
+try:
+    save_dfs_to_excel(all_dfs)
+    logging.info("ETL nfl_scrapper pipeline completed successfully.")
+except Exception as e:
+    logging.error(f"ETL nfl_scrapper pipeline failed: {e}")

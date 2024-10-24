@@ -2,6 +2,14 @@ import pandas as pd
 import xlwings as xw
 import re
 from datetime import datetime
+import logging
+
+# Set up logging
+logging.basicConfig(
+    filename='nfl_pipeline.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+)
 
 
 # Load the Weekly Schedule DataFrame (scraped from previous code)
@@ -107,7 +115,11 @@ def main():
     final_df = build_matchup_stats(schedule_df, nfl_stats_sheets)
 
     # Export the final DataFrame to Excel
-    save_output_with_date(final_df)
+    try:
+        save_output_with_date(final_df)
+        logging.info("ETL matchup_stats pipeline completed successfully.")
+    except Exception as e:
+        logging.error(f"ETL matchup_stats pipeline failed: {e}")
 
 
 if __name__ == "__main__":

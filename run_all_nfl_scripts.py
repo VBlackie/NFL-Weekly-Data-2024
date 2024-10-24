@@ -1,5 +1,13 @@
 import subprocess
 import os
+import logging
+
+# Set up logging
+logging.basicConfig(
+    filename='nfl_pipeline.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+)
 
 
 def run_script(script_name):
@@ -15,12 +23,16 @@ def run_script(script_name):
 def main():
     # Define the list of scripts to run
     script_folder = os.path.dirname(__file__)  # Get current directory of the script
-    scripts = ["main.py", "schedule.py", "matchup stats.py","write_to_gsheets.py"]
+    scripts = ["nfl_scrapper.py", "schedule.py", "matchup_stats.py","write_to_gsheets.py"]
 
     # Loop over each script and run it
-    for script in scripts:
-        script_path = os.path.join(script_folder, script)
-        run_script(script_path)
+    try:
+        for script in scripts:
+            script_path = os.path.join(script_folder, script)
+            run_script(script_path)
+        logging.info("ETL run_all_nfl_scripts pipeline completed successfully.")
+    except Exception as e:
+        logging.error(f"ETL run_all_nfl_scripts pipeline failed: {e}")
 
 
 if __name__ == "__main__":
