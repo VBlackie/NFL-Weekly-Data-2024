@@ -57,6 +57,6 @@ if __name__ == "__main__":
 
     try:
         upload_to_gsheets(excel_file, spreadsheet_id, sheet_name)
-        logging.info("ETL pipeline completed successfully.")
+        logging.info("Writing to Gsheets completed successfully.")
     except Exception as e:
-        logging.error(f"ETL pipeline failed: {e}")
+        logging.error(f"Writing to Gsheets failed: {e}")
