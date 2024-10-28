@@ -12,51 +12,50 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
 )
 
-#Loading dotenv private variables
+# Load environment variables
 load_dotenv()
 
 
 # Set up Google Sheets API client
 def get_gsheets_client():
     SCOPES = ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive']
-    credentials = Credentials.from_service_account_file('credentials.json', scopes=SCOPES)
-    client = gspread.authorize(credentials)
-    return client
+    try:
+        credentials = Credentials.from_service_account_file('credentials.json', scopes=SCOPES)
+        client = gspread.authorize(credentials)
+        logging.info("Successfully authenticated Google Sheets API client.")
+        return client
+    except Exception as e:
+        logging.error(f"Failed to authenticate Google Sheets API client: {e}")
+        raise
 
 
 # Upload Excel file to Google Sheets
 def upload_to_gsheets(excel_file, spreadsheet_id, sheet_name):
-    # Load the Excel sheet into pandas
-    df = pd.read_excel(excel_file)
+    try:
+        df = pd.read_excel(excel_file)
+        df = df.replace([float('inf'), float('-inf'), pd.NA, None], 0).fillna(0)
+        logging.info(f"Loaded data from {excel_file} with {len(df)} rows.")
 
-    # Replace any NaN, inf, or -inf values with an empty string or a specific value like 0
-    df = df.replace([float('inf'), float('-inf'), pd.NA, None], 0)
-    df = df.fillna(0)  # Replace any remaining NaN values with 0
+        client = get_gsheets_client()
+        sheet = client.open_by_key(spreadsheet_id)
+        worksheet = sheet.worksheet(sheet_name)
 
-    # Authenticate and open the spreadsheet
-    client = get_gsheets_client()
-    sheet = client.open_by_key(spreadsheet_id)
+        worksheet.clear()
+        worksheet.update([df.columns.values.tolist()] + df.values.tolist())
+        logging.info(f"Data successfully written to Google Sheets sheet '{sheet_name}'.")
 
-    # Select the desired sheet by name
-    worksheet = sheet.worksheet(sheet_name)
-
-    # Clear the existing content in the sheet
-    worksheet.clear()
-
-    # Convert the DataFrame to a list of lists and update the Google Sheets
-    worksheet.update([df.columns.values.tolist()] + df.values.tolist())
+    except Exception as e:
+        logging.error(f"Failed to upload data to Google Sheets: {e}")
+        raise
 
 
 if __name__ == "__main__":
-    # Path to the Excel file you want to upload
     excel_file = 'nfl_output.xlsx'
-
-    # Google Sheets details
-    spreadsheet_id = os.getenv('SPREADSHEET_ID')  # Replace with your Google Sheet ID
-    sheet_name = 'Sheet1'  # Replace with the name of the sheet you want to update
+    spreadsheet_id = os.getenv('SPREADSHEET_ID')
+    sheet_name = 'Sheet1'
 
     try:
         upload_to_gsheets(excel_file, spreadsheet_id, sheet_name)
-        logging.info("Writing to Gsheets completed successfully.")
+        logging.info("write_to_gsheets.py completed successfully.")
     except Exception as e:
-        logging.error(f"Writing to Gsheets failed: {e}")
+        logging.error(f"write_to_gsheets.py failed: {e}")

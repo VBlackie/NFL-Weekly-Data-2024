@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import logging
+from validation_functions import run_validations
 
 # Set up logging
 logging.basicConfig(
@@ -19,9 +20,12 @@ def scrape_current_week_schedule(url):
 
     response = requests.get(url, headers=headers)
 
+    # Log the status code of the response
+    logging.info(f"Request to {url} returned status code: {response.status_code}")
+
     # Check if the request was successful (status code 200)
     if response.status_code != 200:
-        print(f"Failed to retrieve {url}. Status code: {response.status_code}")
+        logging.error(f"Failed to retrieve {url}. Status code: {response.status_code}")
         return None
 
     # Parse the HTML content using BeautifulSoup
@@ -32,8 +36,8 @@ def scrape_current_week_schedule(url):
 
     # Check if the table was found
     if table is None:
-        print("No schedule table found on the page. Here's the HTML content for inspection:")
-        print(soup.prettify())  # Print the HTML to help with debugging
+        logging.error("No schedule table found on the page.")
+        logging.debug(f"HTML content: {soup.prettify()}")
         return None
 
     # Prepare lists to hold the schedule data
@@ -61,10 +65,13 @@ if __name__ == "__main__":
 
     try:
         if schedule_df is not None:
-            print(schedule_df)
-            # Optionally, save to Excel
-            schedule_df.to_excel("nfl_current_week_schedule.xlsx", index=False)
-        logging.info("ETL schedule pipeline completed successfully.")
+            # Validate the DataFrame structure and contents
+            if run_validations(schedule_df, "Schedule Data", required_columns=['Teams', 'Time', 'Location']):
+                logging.info("Schedule data successfully scraped and validated.")
+                # Optionally, save to Excel
+                schedule_df.to_excel("nfl_current_week_schedule.xlsx", index=False)
+                logging.info("ETL schedule pipeline completed successfully.")
+            else:
+                logging.error("Validation failed for schedule_df.")
     except Exception as e:
         logging.error(f"ETL schedule pipeline failed: {e}")
-
