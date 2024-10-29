@@ -1,0 +1,12 @@
+// ETL Pipeline
+digraph {
+	A [label="nfl_scrapper.py"]
+	B [label="schedule.py"]
+	C [label="matchup_stats.py"]
+	D [label="write_to_gsheets.py"]
+	E [label="Dashboard HTML Generation"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+}

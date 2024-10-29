@@ -1,0 +1,14 @@
+digraph G {
+    "nfl_scrapper.py" -> "schedule.py";
+    "schedule.py" -> "matchup_stats.py";
+    "matchup_stats.py" -> "write_to_gsheets.py";
+    "write_to_gsheets.py" -> "generate_html_dashboard.py";
+
+    // Adding validation_functions.py as an auxiliary node, excluding generate_html_dashboard.py
+    "validation_functions.py" [shape=box, style=dashed, color=grey];
+    "validation_functions.py" -> "nfl_scrapper.py" [arrowhead=none, style=dashed, color=grey];
+    "validation_functions.py" -> "schedule.py" [arrowhead=none, style=dashed, color=grey];
+    "validation_functions.py" -> "matchup_stats.py" [arrowhead=none, style=dashed, color=grey];
+    "validation_functions.py" -> "write_to_gsheets.py" [arrowhead=none, style=dashed, color=grey];
+}
+

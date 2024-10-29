@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pipeline Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .status-success { color: green; }
+        .status-failed { color: red; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+    <h1>Pipeline Monitoring Dashboard</h1>
+
+    <h2>Pipeline Status Overview</h2>
+    <div id="status-summary">
+        
+            <p><strong>NFL Pipeline</strong>:
+            <span class="status-success">
+                Success
+            </span>
+            | Last Run: 2024-10-28 14:00:17 | Duration: 64.03s</p>
+        
+    </div>
+
+    <h2>Recent Pipeline Logs</h2>
+    <table>
+        <tr>
+            <th>Run Date</th>
+            <th>Pipeline Name</th>
+            <th>Status</th>
+            <th>Duration</th>
+            <th>Error Message</th>
+        </tr>
+        
+        <tr>
+            <td>2024-10-28 13:19:17</td>
+            <td>NFL Pipeline</td>
+            <td class="status-success">Success</td>
+            <td>64.35</td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <td>2024-10-28 14:00:17</td>
+            <td>NFL Pipeline</td>
+            <td class="status-success">Success</td>
+            <td>64.03</td>
+            <td></td>
+        </tr>
+        
+    </table>
+</body>
+</html>

@@ -7,6 +7,10 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import gspread
 import sys
+import time
+from datetime import datetime
+from google.oauth2.service_account import Credentials
+
 print(sys.executable)
 
 # Set up logging
@@ -18,6 +22,13 @@ logging.basicConfig(
 
 # Load environment variables from .env file
 load_dotenv()
+
+
+def get_gsheets_client():
+    SCOPES = ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive']
+    credentials = Credentials.from_service_account_file('credentials.json', scopes=SCOPES)
+    client = gspread.authorize(credentials)
+    return client
 
 
 def send_email(subject, body):
@@ -66,27 +77,58 @@ def run_script(script_name):
         logging.error(f"ETL {script_name.split('.')[0]} pipeline failed: {e}")
 
 
-def main():
-    # Define the list of scripts to run
-    script_folder = os.path.dirname(__file__)  # Get current directory of the script
-    scripts = ["nfl_scrapper.py", "schedule.py", "matchup_stats.py","write_to_gsheets.py"]
-    # scripts = ["write_to_gsheets.py"]
+# Define log function
+def log_run_to_gsheets(status, duration, error_message=''):
+    try:
+        # Connect to Google Sheets
+        client = get_gsheets_client()
+        sheet = client.open_by_key(os.getenv('SPREADSHEET_ID_LOG')).worksheet('Run_Log')
 
-    # Loop over each script and run it
+        # Record current date and time for logging
+        run_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+        # Static pipeline name for this project
+        pipeline_name = "NFL Pipeline"
+
+        # Append new row to Google Sheets
+        new_row = [pipeline_name, run_date, status, duration, error_message]
+        sheet.append_row(new_row)
+        logging.info(f"Run log added to Google Sheets: {new_row}")
+
+    except gspread.exceptions.APIError as api_error:
+        logging.error(f"Google Sheets API error: {api_error}")
+    except gspread.exceptions.SpreadsheetNotFound:
+        logging.error("Google Sheets ID not found or inaccessible. Check SPREADSHEET_ID.")
+    except Exception as e:
+        logging.error(f"Failed to log run to Google Sheets: {e}")
+
+
+def main():
+    start_time = time.time()  # Track start time
+
+    # Define the list of scripts to run
+    script_folder = os.path.dirname(__file__)
+    scripts = ["nfl_scrapper.py", "schedule.py", "matchup_stats.py", "write_to_gsheets.py",]
+
     try:
         for script in scripts:
             script_path = os.path.join(script_folder, script)
             run_script(script_path)
-        logging.info("ETL run_all_nfl_scripts pipeline completed successfully.")
-        # Send success email
+
+        duration = round(time.time() - start_time, 2)  # Calculate total duration
+        log_run_to_gsheets('Success', duration)  # Log success
         subject = "NFL Pipeline Completed Successfully"
         body = "The NFL data pipeline has run successfully without any issues."
         send_email(subject, body)
+        logging.info("ETL run_all_nfl_scripts pipeline completed successfully.")
+
     except Exception as e:
-        logging.error(f"ETL run_all_nfl_scripts pipeline failed: {e}")
+        duration = round(time.time() - start_time, 2)
+        log_run_to_gsheets('Failed', duration, str(e))  # Log failure with error
         subject = "NFL Pipeline Failed"
         body = f"The NFL data pipeline encountered an error:\n\n{str(e)}"
         send_email(subject, body)
+        logging.error(f"ETL run_all_nfl_scripts pipeline failed: {e}")
 
 
 if __name__ == "__main__":
