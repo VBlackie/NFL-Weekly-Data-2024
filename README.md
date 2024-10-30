@@ -24,6 +24,7 @@ The pipeline consists of the following main components:
 3. **Data Loading**:
    - Exports transformed data into an Excel file.
    - Loads data to Google Sheets for dynamic dashboard visualization.
+   ![Looker NFL Dashboard](Looker_NFL_Matches_Dashboard.PNG)
    
 4. **Data Backup**:
    - Archives backups of the data to a local folder.
@@ -32,6 +33,7 @@ The pipeline consists of the following main components:
    - Logs key actions and errors to a local log file.
    - Sends email notifications upon pipeline completion or error.
    - Tracks pipeline status in a Google Sheets-based dashboard.
+   - Monitors HMTL Dashboard Locally for lightweight visualization of the pipeline status.
 
 ---
 
@@ -72,6 +74,7 @@ The architecture follows an **ETL** (Extract, Transform, Load) workflow:
 `write_to_gsheets.py` uploads data to Google Sheets.
 4. **Monitor**:
 `generate_html_dashboard.py` generates an HTML dashboard from the run log on Google Sheets.
+![HTML NFL Dashboard](html_nfl_dashboard.PNG)
 
 ### High-Level Overview
 
