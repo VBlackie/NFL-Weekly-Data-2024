@@ -82,9 +82,9 @@ def build_matchup_stats(schedule_df, nfl_stats_sheets):
 # Function to save output with and without date signature
 def save_output_with_date(final_df):
     current_date = datetime.now().strftime('%Y-%m-%d')
-    final_df.to_excel(f'nfl_output_{current_date}.xlsx', index=False)
+    # final_df.to_excel(f'backups/final_output/nfl_output_{current_date}.xlsx', index=False)
     final_df.to_excel('nfl_output.xlsx', index=False)
-    logging.info(f"Files saved: 'nfl_output_{current_date}.xlsx' and 'nfl_output.xlsx'")
+    logging.info(f"Files saved: nfl_output.xlsx")
 
 
 # Main function to load the data, process it, and export it

@@ -108,7 +108,8 @@ def main():
 
     # Define the list of scripts to run
     script_folder = os.path.dirname(__file__)
-    scripts = ["nfl_scrapper.py", "schedule.py", "matchup_stats.py", "write_to_gsheets.py",]
+    scripts = ["nfl_scrapper.py", "schedule_scrapper.py", "matchup_stats.py", "write_to_gsheets.py",
+               "generate_html_dashboard.py", "create_backups.py"]
 
     try:
         for script in scripts:
